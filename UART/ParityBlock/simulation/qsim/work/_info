@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/ParityBlock/simulation/qsim
+vhard_block
+Z1 !s110 1662348118
+!i10b 1
+!s100 EBmkW1YiQz;i:DLMii4O71
+I<UfG]zF3WJXUahDAzN7Lk3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1662348118
+Z4 8ParityCalc.vo
+Z5 FParityCalc.vo
+L0 337
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1662348118.000000
+Z8 !s107 ParityCalc.vo|
+Z9 !s90 -work|work|ParityCalc.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vParityCalc
+R1
+!i10b 1
+!s100 Chfz6=F=UDM6nd7hJJLC82
+ISn0I425=@WLg36Y6m21L:1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@parity@calc
+vParityCalc_vlg_vec_tst
+R1
+!i10b 1
+!s100 n1kEYO76EF`QUOJJ0Sic@0
+I@L^K>Ae7Rk^44KW48kz0m3
+R2
+R0
+w1662348117
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@parity@calc_vlg_vec_tst

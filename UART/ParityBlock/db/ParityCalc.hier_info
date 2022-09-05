@@ -1,0 +1,13 @@
+|ParityCalc
+Par => out.OUTPUTSELECT
+Din[0] => WideXor0.IN0
+Din[1] => WideXor0.IN1
+Din[2] => WideXor0.IN2
+Din[3] => WideXor0.IN3
+Din[4] => WideXor0.IN4
+Din[5] => WideXor0.IN5
+Din[6] => WideXor0.IN6
+Din[7] => WideXor0.IN7
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

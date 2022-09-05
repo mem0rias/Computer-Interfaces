@@ -1,0 +1,22 @@
+module UARTClock (
+	input
+	Rst,
+	Clk,
+	output 
+	reg out);
+	
+	integer MAXCount = 8'd49999999;
+	always @ (posedge Clk) begin
+		if(Rst) begin
+			flips <= 8'b11111111;
+		end
+		else if(WR) begin
+			flips <= Din;
+		end else begin
+			flips <= {flips[7:0],1'b1};
+		end
+		
+		out <= flips[8];
+		 
+	end
+endmodule 

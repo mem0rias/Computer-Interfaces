@@ -1,0 +1,12 @@
+module ParityCalc (
+	input
+	Par,
+	input [7:0] Din,
+	output 
+	out);
+	always @ (*) begin
+		
+		out <= ~^Din;
+		 
+	end
+endmodule 
