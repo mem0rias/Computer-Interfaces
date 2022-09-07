@@ -9,21 +9,21 @@ z2
 cModel Technology
 Z0 dC:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/Clock/simulation/qsim
 vhard_block
-Z1 !s110 1662348897
+Z1 !s110 1662518451
 !i10b 1
-!s100 V]d:WDB2o@UV]l1Jd>jNE2
-I@dM?8749EC`<_W48B@B?b3
+!s100 <82JT`Qm_BZab`L@L3oiH0
+InzBm1jgNIPSBmA9DJ=NN]0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1662348897
+Z3 w1662518451
 Z4 8UARTClock.vo
 Z5 FUARTClock.vo
-L0 1700
+L0 2724
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1662348897.000000
+Z7 !s108 1662518451.000000
 Z8 !s107 UARTClock.vo|
 Z9 !s90 -work|work|UARTClock.vo|
 !i113 1
@@ -32,8 +32,8 @@ Z11 tCvgOpt 0
 vUARTClock
 R1
 !i10b 1
-!s100 ?BG:PS6d=XW0g1hARb9nY3
-IaUJ;1jRaXU@daCE?1o7Yk0
+!s100 kc6DIhRz;5CDV6a>YhU_T3
+INVa9[jU3_SeAhZ7S8;If:1
 R2
 R0
 R3
@@ -54,11 +54,11 @@ n@u@a@r@t@clock
 vUARTClock_vlg_vec_tst
 R1
 !i10b 1
-!s100 1nWd^7J@jkzAi@@EMOESX2
-IBARO8iTFJC964hc1Rn1jk0
+!s100 O^3_1m6PYAg`zDLzC:gY>0
+IKC^3RX>T3gPkPb@zFJNV@2
 R2
 R0
-w1662348896
+w1662518450
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

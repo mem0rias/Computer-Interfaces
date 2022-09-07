@@ -7,8 +7,6 @@ WR => flips.OUTPUTSELECT
 WR => flips.OUTPUTSELECT
 WR => flips.OUTPUTSELECT
 WR => flips.OUTPUTSELECT
-WR => flips.OUTPUTSELECT
-Rst => flips.OUTPUTSELECT
 Rst => flips.OUTPUTSELECT
 Rst => flips.OUTPUTSELECT
 Rst => flips.OUTPUTSELECT
@@ -26,7 +24,6 @@ Clk => flips[4].CLK
 Clk => flips[5].CLK
 Clk => flips[6].CLK
 Clk => flips[7].CLK
-Clk => flips[8].CLK
 Din[0] => flips.DATAB
 Din[1] => flips.DATAB
 Din[2] => flips.DATAB
@@ -35,7 +32,7 @@ Din[4] => flips.DATAB
 Din[5] => flips.DATAB
 Din[6] => flips.DATAB
 Din[7] => flips.DATAB
-Din[8] => flips.DATAB
+Din[8] => ~NO_FANOUT~
 out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

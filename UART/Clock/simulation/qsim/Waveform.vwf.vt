@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/04/2022 22:34:56"
+// Generated on "09/06/2022 21:40:50"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          UARTClock
 // 
@@ -30,20 +30,26 @@ module UARTClock_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg Clk;
+reg [31:0] Count;
 reg Rst;
+reg [2:0] Select;
 // wires                                               
 wire out;
+wire [11:0] tiempo;
 
 // assign statements (if any)                          
 UARTClock i1 (
 // port map - connection between master ports and signals/registers   
 	.Clk(Clk),
+	.Count(Count),
 	.Rst(Rst),
-	.out(out)
+	.Select(Select),
+	.out(out),
+	.tiempo(tiempo)
 );
 initial 
 begin 
-#1000000 $finish;
+#100000000 $finish;
 end 
 
 // Clk
@@ -57,7 +63,184 @@ end
 // Rst
 initial
 begin
-	Rst = 1'b0;
+	Rst = 1'b1;
+	Rst = #10000 1'b0;
+end 
+// Count[ 31 ]
+initial
+begin
+	Count[31] = 1'b0;
+end 
+// Count[ 30 ]
+initial
+begin
+	Count[30] = 1'b0;
+end 
+// Count[ 29 ]
+initial
+begin
+	Count[29] = 1'b0;
+end 
+// Count[ 28 ]
+initial
+begin
+	Count[28] = 1'b0;
+end 
+// Count[ 27 ]
+initial
+begin
+	Count[27] = 1'b0;
+end 
+// Count[ 26 ]
+initial
+begin
+	Count[26] = 1'b0;
+end 
+// Count[ 25 ]
+initial
+begin
+	Count[25] = 1'b0;
+end 
+// Count[ 24 ]
+initial
+begin
+	Count[24] = 1'b0;
+end 
+// Count[ 23 ]
+initial
+begin
+	Count[23] = 1'b0;
+end 
+// Count[ 22 ]
+initial
+begin
+	Count[22] = 1'b0;
+end 
+// Count[ 21 ]
+initial
+begin
+	Count[21] = 1'b0;
+end 
+// Count[ 20 ]
+initial
+begin
+	Count[20] = 1'b0;
+end 
+// Count[ 19 ]
+initial
+begin
+	Count[19] = 1'b0;
+end 
+// Count[ 18 ]
+initial
+begin
+	Count[18] = 1'b0;
+end 
+// Count[ 17 ]
+initial
+begin
+	Count[17] = 1'b0;
+end 
+// Count[ 16 ]
+initial
+begin
+	Count[16] = 1'b0;
+end 
+// Count[ 15 ]
+initial
+begin
+	Count[15] = 1'b0;
+end 
+// Count[ 14 ]
+initial
+begin
+	Count[14] = 1'b0;
+end 
+// Count[ 13 ]
+initial
+begin
+	Count[13] = 1'b0;
+end 
+// Count[ 12 ]
+initial
+begin
+	Count[12] = 1'b0;
+end 
+// Count[ 11 ]
+initial
+begin
+	Count[11] = 1'b0;
+end 
+// Count[ 10 ]
+initial
+begin
+	Count[10] = 1'b0;
+end 
+// Count[ 9 ]
+initial
+begin
+	Count[9] = 1'b0;
+end 
+// Count[ 8 ]
+initial
+begin
+	Count[8] = 1'b0;
+end 
+// Count[ 7 ]
+initial
+begin
+	Count[7] = 1'b0;
+end 
+// Count[ 6 ]
+initial
+begin
+	Count[6] = 1'b0;
+end 
+// Count[ 5 ]
+initial
+begin
+	Count[5] = 1'b0;
+end 
+// Count[ 4 ]
+initial
+begin
+	Count[4] = 1'b0;
+end 
+// Count[ 3 ]
+initial
+begin
+	Count[3] = 1'b0;
+end 
+// Count[ 2 ]
+initial
+begin
+	Count[2] = 1'b0;
+end 
+// Count[ 1 ]
+initial
+begin
+	Count[1] = 1'b0;
+end 
+// Count[ 0 ]
+initial
+begin
+	Count[0] = 1'b0;
+end 
+// Select[ 2 ]
+initial
+begin
+	Select[2] = 1'b0;
+	Select[2] = #20000 1'b1;
+end 
+// Select[ 1 ]
+initial
+begin
+	Select[1] = 1'b1;
+end 
+// Select[ 0 ]
+initial
+begin
+	Select[0] = 1'b1;
 end 
 endmodule
 

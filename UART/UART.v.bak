@@ -1,0 +1,14 @@
+module UART (
+	input
+	Rst,
+	Clk,
+	ParitySelect,
+	Send,
+	input [7:0] Din,
+	output out);
+	
+	
+	
+	
+	
+endmodule 

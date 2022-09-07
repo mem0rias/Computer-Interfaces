@@ -9,21 +9,21 @@ z2
 cModel Technology
 Z0 dC:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/Shift Register PISO/simulation/qsim
 vhard_block
-Z1 !s110 1662345519
+Z1 !s110 1662519036
 !i10b 1
-!s100 e^a?igP=g>O6@Cmz2g^dP0
-IEBYmY:@92ZEmnMlVfT8163
+!s100 j;3MOn6dDGg0j>3i_bTPY3
+IJHQOT0VYzH3z6AaKKc0h]1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1662345519
+Z3 w1662519036
 Z4 8PISOSRegister.vo
 Z5 FPISOSRegister.vo
-L0 715
+L0 678
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1662345519.000000
+Z7 !s108 1662519036.000000
 Z8 !s107 PISOSRegister.vo|
 Z9 !s90 -work|work|PISOSRegister.vo|
 !i113 1
@@ -32,8 +32,8 @@ Z11 tCvgOpt 0
 vPISOSRegister
 R1
 !i10b 1
-!s100 n4_AdXa4MPc0F]J:66Y5R1
-IO2TeDKQBL`jlab8Vg`2C11
+!s100 W]54jJlPHa^NjK4cRkFTz1
+IR?20WWz6H7:o?ncmNF<a:1
 R2
 R0
 R3
@@ -58,7 +58,7 @@ R1
 In2o:M6hASA=TAQTl<2Mc[3
 R2
 R0
-w1662345518
+w1662519035
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

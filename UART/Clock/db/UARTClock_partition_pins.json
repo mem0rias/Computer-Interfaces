@@ -8,6 +8,66 @@
 					"strict" : false
 				},
 				{
+					"name" : "tiempo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[9]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[10]",
+					"strict" : false
+				},
+				{
+					"name" : "tiempo[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Select[1]",
+					"strict" : false
+				},
+				{
 					"name" : "Rst",
 					"strict" : false
 				},

@@ -1,14 +1,14 @@
-Fitter Status : Successful - Sun Sep 04 21:37:44 2022
+Fitter Status : Successful - Tue Sep 06 21:50:00 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : PISOSRegister
 Top-level Entity Name : PISOSRegister
 Family : MAX 10
 Device : 10M16DAF484C7G
 Timing Models : Final
-Total logic elements : 11 / 15,840 ( < 1 % )
+Total logic elements : 10 / 15,840 ( < 1 % )
     Total combinational functions : 10 / 15,840 ( < 1 % )
-    Dedicated logic registers : 10 / 15,840 ( < 1 % )
-Total registers : 10
+    Dedicated logic registers : 9 / 15,840 ( < 1 % )
+Total registers : 9
 Total pins : 13 / 320 ( 4 % )
 Total virtual pins : 0
 Total memory bits : 0 / 562,176 ( 0 % )

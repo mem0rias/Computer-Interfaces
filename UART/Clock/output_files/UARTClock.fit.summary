@@ -1,15 +1,15 @@
-Fitter Status : Successful - Sun Sep 04 22:34:35 2022
+Fitter Status : Successful - Tue Sep 06 21:40:17 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : UARTClock
 Top-level Entity Name : UARTClock
 Family : MAX 10
 Device : 10M16DAF484C7G
 Timing Models : Final
-Total logic elements : 48 / 15,840 ( < 1 % )
-    Total combinational functions : 46 / 15,840 ( < 1 % )
+Total logic elements : 64 / 15,840 ( < 1 % )
+    Total combinational functions : 64 / 15,840 ( < 1 % )
     Dedicated logic registers : 33 / 15,840 ( < 1 % )
 Total registers : 33
-Total pins : 3 / 320 ( < 1 % )
+Total pins : 50 / 320 ( 16 % )
 Total virtual pins : 0
 Total memory bits : 0 / 562,176 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 90 ( 0 % )
