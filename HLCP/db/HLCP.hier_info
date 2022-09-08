@@ -1,0 +1,94 @@
+|Top
+XY[0] => HLCP:U1.XY[0]
+XY[1] => HLCP:U1.XY[1]
+But => Debounce:U2.sigB
+Clk => HLCP:U1.Clk
+Clk => Debounce:U2.clk
+Rst => HLCP:U1.Rst
+Rst => Debounce:U2.rst
+LEDs[0] << HLCP:U1.busLed[0]
+LEDs[1] << HLCP:U1.busLed[1]
+LEDs[2] << HLCP:U1.busLed[2]
+LEDs[3] << HLCP:U1.busLed[3]
+LEDs[4] << HLCP:U1.busLed[4]
+LEDs[5] << HLCP:U1.busLed[5]
+LEDs[6] << HLCP:U1.busLed[6]
+LEDs[7] << HLCP:U1.led
+
+
+|Top|HLCP:U1
+Rst => Count100M.ACLR
+Rst => pres_state~19.DATAIN
+Rst => EnHz.ENA
+Clk => EnHz.CLK
+Clk => Count100M.CLK
+Clk => pres_state~17.DATAIN
+but => rising_edge_det.IN1
+but => input.DATAIN
+XY[0] => Equal0.IN4
+XY[0] => Equal1.IN4
+XY[0] => Equal2.IN4
+XY[0] => Equal3.IN4
+XY[1] => Equal0.IN3
+XY[1] => Equal1.IN3
+XY[1] => Equal2.IN3
+XY[1] => Equal3.IN3
+busLed[0] <= WideOr20.DB_MAX_OUTPUT_PORT_TYPE
+busLed[1] <= WideOr19.DB_MAX_OUTPUT_PORT_TYPE
+busLed[2] <= WideOr18.DB_MAX_OUTPUT_PORT_TYPE
+busLed[3] <= WideOr17.DB_MAX_OUTPUT_PORT_TYPE
+busLed[4] <= WideOr16.DB_MAX_OUTPUT_PORT_TYPE
+busLed[5] <= busLed.DB_MAX_OUTPUT_PORT_TYPE
+busLed[6] <= WideOr15.DB_MAX_OUTPUT_PORT_TYPE
+led <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top|debounce:U2
+clk => sigdB~reg0.CLK
+clk => flipflops[0].CLK
+clk => flipflops[1].CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+rst => sigdB~reg0.ACLR
+rst => flipflops[0].ACLR
+rst => flipflops[1].ACLR
+rst => count[18].ENA
+rst => count[17].ENA
+rst => count[16].ENA
+rst => count[15].ENA
+rst => count[14].ENA
+rst => count[13].ENA
+rst => count[12].ENA
+rst => count[11].ENA
+rst => count[10].ENA
+rst => count[9].ENA
+rst => count[8].ENA
+rst => count[7].ENA
+rst => count[6].ENA
+rst => count[5].ENA
+rst => count[4].ENA
+rst => count[3].ENA
+rst => count[2].ENA
+rst => count[1].ENA
+rst => count[0].ENA
+sigB => flipflops[0].DATAIN
+sigdB <= sigdB~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
