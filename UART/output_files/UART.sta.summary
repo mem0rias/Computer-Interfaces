@@ -2,4 +2,76 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'Clock'
+Slack : -5.833
+TNS   : -203.669
+
+Type  : Slow 1200mV 85C Model Setup 'UARTClock:ClockTx|out'
+Slack : -0.942
+TNS   : -3.541
+
+Type  : Slow 1200mV 85C Model Hold 'UARTClock:ClockTx|out'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clock'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -101.210
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UARTClock:ClockTx|out'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Setup 'Clock'
+Slack : -5.227
+TNS   : -182.473
+
+Type  : Slow 1200mV 0C Model Setup 'UARTClock:ClockTx|out'
+Slack : -0.809
+TNS   : -2.829
+
+Type  : Slow 1200mV 0C Model Hold 'Clock'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'UARTClock:ClockTx|out'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -101.210
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UARTClock:ClockTx|out'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Fast 1200mV 0C Model Setup 'Clock'
+Slack : -1.904
+TNS   : -54.323
+
+Type  : Fast 1200mV 0C Model Setup 'UARTClock:ClockTx|out'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'UARTClock:ClockTx|out'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -75.438
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UARTClock:ClockTx|out'
+Slack : -1.000
+TNS   : -5.000
+
 ------------------------------------------------------------

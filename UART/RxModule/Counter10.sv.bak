@@ -1,0 +1,5 @@
+module Counter10(
+	input Clk, Rst, En,
+	output out
+
+);

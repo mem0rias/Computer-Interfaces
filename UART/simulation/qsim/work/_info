@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/simulation/qsim
+vhard_block
+Z1 !s110 1662931848
+!i10b 1
+!s100 l50cFKS4X9??JH_m?[hJ;0
+IfSZll@TDzfOk>SJSLK9lX2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1662931847
+Z4 8UART.vo
+Z5 FUART.vo
+L0 4463
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1662931848.000000
+Z8 !s107 UART.vo|
+Z9 !s90 -work|work|UART.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vUART
+R1
+!i10b 1
+!s100 KoP^oQ@o?oJGA_L4_DUz?1
+IV6FR5]OZH@LJYjLiFjeG<1
+R2
+R0
+R3
+R4
+R5
+Z12 L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@u@a@r@t
+vUART_vlg_vec_tst
+R1
+!i10b 1
+!s100 c`ah]]lo;OaYc?WOZEWZ`2
+IR[4DdhX7Y0<hL@_XGUOX`0
+R2
+R0
+w1662931846
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z13 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+n@u@a@r@t_vlg_vec_tst
+vUARTClock
+Z14 !s110 1662769752
+!i10b 1
+!s100 kc6DIhRz;5CDV6a>YhU_T3
+I5_0:[R;5zd:IIE3Vj;A`N2
+R2
+R0
+w1662769751
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+Z15 !s108 1662769752.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@u@a@r@t@clock
+vUARTClock_vlg_vec_tst
+R14
+!i10b 1
+!s100 [UDl43NE]Oi_m`QFF]l`<2
+IbzRSRk_`ZAO0@Y@;24ZiR2
+R2
+R0
+w1662769750
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@u@a@r@t@clock_vlg_vec_tst

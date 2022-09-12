@@ -1,0 +1,26 @@
+module uUartControl(
+	input Clk,Rst, confmode, send,
+	input [7:0] Din,
+	output reg [6:0] ControlLines
+);
+	reg [8:0] uMem [0:3] = {9'b100000110,9'b101010000,9'b111110000,9'b101110000};
+	reg [3:0] selection = 4'b0000;
+	reg inpt;
+	reg rising_edge_det;
+	reg [8:0] CurrentIns;
+	wire Detect;
+	always @(posedge Clk) begin
+		if(Rst) begin
+			CurrentIns <= uMem[3];
+			ControlLines <= {uMem[3][8:6], selection};
+		end else if(confmode) begin
+			ControlLines <= {uMem[CurrentIns[3:2]][8:6], selection};
+		end
+	end
+	always @(posedge Clk) begin
+		inpt <= confmode;
+		rising_edge_det <= confmode && (!inpt);
+		//assign Detect = rising_edge_det;
+	end
+	
+endmodule

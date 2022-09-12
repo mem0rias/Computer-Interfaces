@@ -1,0 +1,24 @@
+module PairRXTX (
+	input Clk, Rst, Send, Conf,
+	input [7:0] DPin,
+	output Busy, Reading,
+	output [7:0] DPout,
+);
+	wire DM1Out;
+	RXTXUART M1 (
+		.Clk(Clk)
+		.Rst(Rst)
+		.Send(Send),
+		.Conf(Conf),
+		.DPin(DPin),
+		.Dout(DM1Out)
+		.Busy(Busy)
+	);
+	
+	RXTXUART M2 (
+		.Clk(Clk),
+		.Rst(Rst),
+		.DSin(DM1Out),
+		.dout(DPout),
+		.Reading(Reading)
+	);

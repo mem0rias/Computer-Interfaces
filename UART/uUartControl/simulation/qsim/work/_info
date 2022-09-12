@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/uUartControl/simulation/qsim
+vhard_block
+Z1 !s110 1662928257
+!i10b 1
+!s100 V]d:WDB2o@UV]l1Jd>jNE2
+Ig6foUOcV?B;`cd]ak75Va0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1662928256
+Z4 8uUartControl.vo
+Z5 FuUartControl.vo
+L0 1700
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1662928257.000000
+Z8 !s107 uUartControl.vo|
+Z9 !s90 -work|work|uUartControl.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vuUartControl
+R1
+!i10b 1
+!s100 o7FDhejGY>a7MIQNY`@CS0
+IeKz8nM?WS_>YUbRzNdmi23
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nu@uart@control
+vuUartControl_vlg_vec_tst
+R1
+!i10b 1
+!s100 n`0k4IP_4f9MFaZ3h7;>V0
+I7LbD7G5H`54>J6N5VPjkQ0
+R2
+R0
+w1662928255
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+nu@uart@control_vlg_vec_tst
