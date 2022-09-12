@@ -1,0 +1,15 @@
+module SIPORegister (
+	input Din, Clk, Rst, read,
+	output reg [9:0] dataout
+);
+
+	reg [9:0] data; 
+always @(posedge Clk) begin
+	if(Rst) begin
+		data <= 3'h000;
+	end else if(read) begin
+		data <= {Din, data[9:1]};
+	end
+end
+
+endmodule 

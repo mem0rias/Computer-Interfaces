@@ -1,0 +1,10 @@
+module RXTXUART(
+	input Clk, Rst, Send, Conf
+	input DSin,
+	input [7:0] DPin,
+	output Dout, Busy, Reading,
+	output [7:0] DPout,
+);
+	
+	
+endmodule 

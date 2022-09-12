@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at Counter10.sv(7): always construct contains both blocking and non-blocking assignments File: C:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/RxModule/Counter10.sv Line: 7
+Info (10281): Verilog HDL Declaration information at RxUart.sv(6): object "DivClk" differs only in case from object "divClk" in the same scope File: C:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/RxModule/RxUart.sv Line: 6

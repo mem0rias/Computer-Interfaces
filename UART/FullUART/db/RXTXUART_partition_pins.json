@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Busy",
+					"strict" : false
+				},
+				{
+					"name" : "Reading",
+					"strict" : false
+				},
+				{
+					"name" : "clkout",
+					"strict" : false
+				},
+				{
+					"name" : "Rxclkout",
+					"strict" : false
+				},
+				{
+					"name" : "dsout",
+					"strict" : false
+				},
+				{
+					"name" : "TenCount",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DPout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "Rst",
+					"strict" : false
+				},
+				{
+					"name" : "Conf",
+					"strict" : false
+				},
+				{
+					"name" : "Send",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DPin[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

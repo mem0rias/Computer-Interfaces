@@ -1,0 +1,163 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/FullUART/simulation/qsim
+vCounter10
+Z1 !s110 1662965917
+!i10b 1
+!s100 Rm@OcoGlebcAkLNG8n6:f2
+IVZ2WnH`RP8Ug`Lzd31@[T1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1662965916
+Z4 8RXTXUART.vo
+Z5 FRXTXUART.vo
+Z6 L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1662965917.000000
+Z9 !s107 RXTXUART.vo|
+Z10 !s90 -work|work|RXTXUART.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@counter10
+vCounter10_vlg_vec_tst
+R1
+!i10b 1
+!s100 >ER9_2eOcoRhmKaQ_TMoL0
+I0OoY?:ziOYn<PJFdJlU6:2
+R2
+R0
+R3
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z13 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
+n@counter10_vlg_vec_tst
+vhard_block
+Z14 !s110 1662967240
+!i10b 1
+!s100 FbDic@I[UclQTgJJFRQM10
+ImZ6EAM?1fQM>Qo>`6k<DW3
+R2
+R0
+Z15 w1662967239
+R4
+R5
+L0 8345
+R7
+r1
+!s85 0
+31
+Z16 !s108 1662967240.000000
+R9
+R10
+!i113 1
+R11
+R12
+vPairRXTX
+R14
+!i10b 1
+!s100 579K234]Fb6:n?>eQ:=g;1
+I;Nd1MoS?PK<<R]4o>U[O;2
+R2
+R0
+R15
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R16
+R9
+R10
+!i113 1
+R11
+R12
+n@pair@r@x@t@x
+vPairRXTX_vlg_vec_tst
+R14
+!i10b 1
+!s100 d1[6f3aZYbU77XAJIJS^Y3
+I=19GjV>kmcJ_cAJ=dCnO40
+R2
+R0
+w1662967238
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R16
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+n@pair@r@x@t@x_vlg_vec_tst
+vRXTXUART
+!s110 1662961994
+!i10b 1
+!s100 iCfnGEhfYd^RlDTQOX81d1
+IDFPIbFT4o6lZ5YoTMboJl3
+R2
+R0
+w1662961994
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+!s108 1662961994.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@r@x@t@x@u@a@r@t
+vRXTXUART_vlg_vec_tst
+!s110 1662961995
+!i10b 1
+!s100 mnl5d5@]h=mI[R>@GB_NC2
+IV;jkd;8W?;J<l=133j`gZ1
+R2
+R0
+w1662961993
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+!s108 1662961995.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@r@x@t@x@u@a@r@t_vlg_vec_tst

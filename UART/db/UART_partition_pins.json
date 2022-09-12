@@ -2,7 +2,140 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "clkout",
+					"strict" : false
+				},
+				{
+					"name" : "parity",
+					"strict" : false
+				},
+				{
+					"name" : "busy",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dtout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "controlLine[0]",
+					"strict" : false
+				},
+				{
+					"name" : "controlLine[1]",
+					"strict" : false
+				},
+				{
+					"name" : "controlLine[2]",
+					"strict" : false
+				},
+				{
+					"name" : "controlLine[3]",
+					"strict" : false
+				},
+				{
+					"name" : "controlLine[4]",
+					"strict" : false
+				},
+				{
+					"name" : "controlLine[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Datain[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Rst",
+					"strict" : false
+				},
+				{
+					"name" : "configmode",
+					"strict" : false
+				},
+				{
+					"name" : "Send",
+					"strict" : false
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,6 @@
+
+State Machine - |RxUart|FSMRX:FSM|CurrentState
+Name CurrentState.Idle CurrentState.Display CurrentState.Read 
+CurrentState.Idle 0 0 0 
+CurrentState.Read 1 0 1 
+CurrentState.Display 1 1 0 

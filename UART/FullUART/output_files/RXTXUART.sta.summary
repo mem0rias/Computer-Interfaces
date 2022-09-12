@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -5.832
+TNS   : -313.852
+
+Type  : Slow 1200mV 85C Model Setup 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : -3.515
+TNS   : -110.338
+
+Type  : Slow 1200mV 85C Model Setup 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : -0.726
+TNS   : -2.301
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -160.136
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -5.293
+TNS   : -279.789
+
+Type  : Slow 1200mV 0C Model Setup 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : -3.197
+TNS   : -100.205
+
+Type  : Slow 1200mV 0C Model Setup 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : -0.596
+TNS   : -1.666
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : 0.597
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -160.136
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -1.990
+TNS   : -76.354
+
+Type  : Fast 1200mV 0C Model Setup 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : -0.897
+TNS   : -27.209
+
+Type  : Fast 1200mV 0C Model Setup 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : 0.250
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -118.066
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RXTXUART:M2|RxUart:RX|UARTClock:RxClock|out'
+Slack : -1.000
+TNS   : -33.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RXTXUART:M1|TxUART:TX|UARTClock:ClockTx|out'
+Slack : -1.000
+TNS   : -5.000
+
+------------------------------------------------------------

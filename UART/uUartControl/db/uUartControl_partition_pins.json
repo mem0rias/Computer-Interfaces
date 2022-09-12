@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ControlLines[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ControlLines[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ControlLines[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ControlLines[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ControlLines[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ControlLines[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inputout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inputout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inputout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inputout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "CurrentInsout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "countoud[0]",
+					"strict" : false
+				},
+				{
+					"name" : "countoud[1]",
+					"strict" : false
+				},
+				{
+					"name" : "countoud[2]",
+					"strict" : false
+				},
+				{
+					"name" : "countoud[3]",
+					"strict" : false
+				},
+				{
+					"name" : "divClk",
+					"strict" : false
+				},
+				{
+					"name" : "send",
+					"strict" : false
+				},
+				{
+					"name" : "confmode",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "Rst",
+					"strict" : false
+				},
+				{
+					"name" : "Din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
