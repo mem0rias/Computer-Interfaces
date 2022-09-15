@@ -1,0 +1,149 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    22:40:51 10/09/2021 
+-- Design Name: 
+-- Module Name:    Top - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity RIVETER is
+    Port ( 
+			A : in STD_LOGIC;
+			B : in STD_LOGIC;
+	 );
+end RIVETER;
+
+architecture Behavioral of RIVETER is
+
+	component mux2to1
+	port (
+		     y : out STD_LOGIC;
+			  sel, x1, x0: in STD_LOGIC);
+	end component;
+	
+	component Decoder
+	port (
+		     A : in STD_LOGIC_VECTOR(3 downto 0);
+			  B : out STD_LOGIC_VECTOR(15 downto 0));
+	end component;
+	
+	component Reg
+	port (
+			
+	);
+	end component;
+	
+	
+begin
+	
+
+	DebugOddReg   <= eOddReg;
+	DebugeUserReg <= eUserReg;
+	DebugeCounter <= eCounter;
+	DeBugAluOut   <= AluOut;
+	ControlE      <= Control;
+	
+	EndS <= '1' when eOddReg > eUserReg else '0';
+	EndD <= EndS;
+	
+	
+	U1 : UniversalShiftRegister
+	port map (
+		Reloj => Clk,
+		N     => "00000010",
+		Data  => "00000001",
+		Pout  => eOddReg,
+		SEl   => "0" & Control(13 downto 12) & "1",
+		Clr   => Control(15),
+		En    => Control(14)
+		);
+		
+	U2 : UniversalShiftRegister
+	port map (
+		Reloj => Clk,
+		N     => "00000000",
+		Data  => SalidaMuxUser,
+		Pout  => eUserReg,
+		SEl   => "0001",
+		Clr   => Control(11),
+		En    => Control(10)
+		);
+		
+	U3 : UniversalShiftRegister
+	port map (
+		Reloj => Clk,
+		N     => "00000001",
+		Data  => "00000000",
+		Pout  => eCounter,
+		SEl   => "0111",
+		Clr   => Control(9),
+		En    => Control(8)
+		);
+		
+	U4 : UniversalShiftRegister
+	port map (
+		Reloj => Clk,
+		N     => "00000000",
+		Data  => eCounter,
+		Pout  => DataOut,
+		SEl   => "0001",
+		Clr   => Control(7),
+		En    => Control(6)
+		);
+		
+	U5 : Mux
+	port map (
+		Data => DataIn,
+		En   => Control(5),
+		SEL  => Control(4),
+		N    => AluOut,
+		Pout => SalidaMuxUser
+		);
+		
+	U6 : ALU
+	port map (
+		A    => eUserReg,
+      B    => eOddReg,
+		En   => Control(3),
+		N    => AluOut
+		);
+	u7 : MicroMem
+   port map (  
+		En     => '1',
+		Rst    => Reset,
+		Clk    => Clk,
+		EndCon => EndS,
+		CounterE => CounterDebug,
+		Pout   => Control
+		);
+	
+	
+	
+	
+		
+
+end Behavioral;
+

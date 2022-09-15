@@ -1,0 +1,143 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    22:40:51 10/09/2021 
+-- Design Name: 
+-- Module Name:    Top - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity RIVETER is
+    Port ( 
+			Input0   : in STD_LOGIC;
+			Input1   : in STD_LOGIC;
+			Clk  : in STD_LOGIC;
+			Rst  : in STD_LOGIC;
+			En   : in STD_LOGIC;
+			A    : out STD_LOGIC;
+			B    : out STD_LOGIC;
+			En_De : out STD_LOGIC;
+			Reg_Debug : out STD_LOGIC_VECTOR(1 downto 0)
+	 );
+end RIVETER;
+
+architecture Behavioral of RIVETER is
+
+	component mux2to1
+	port (
+		     y : out STD_LOGIC;
+			  sel, x1, x0: in STD_LOGIC);
+	end component;
+	
+	component Decoder
+	port (
+		     A : in STD_LOGIC_VECTOR(3 downto 0);
+			  B : out STD_LOGIC_VECTOR(15 downto 0));
+	end component;
+	
+	component UniversalShiftRegister
+	port (
+			  Data : in  STD_LOGIC_VECTOR(7 downto 0);
+           Reloj: in  STD_LOGIC;
+			  Clr  : in STD_LOGIC;
+			  En   : in STD_LOGIC;
+			  SEL  : in STD_LOGIC_VECTOR(3 downto 0);
+			  N    : in STD_LOGIC_VECTOR(7 downto 0);
+           Pout : out  STD_LOGIC_VECTOR (7 downto 0)
+	);
+	end component;
+	
+	signal info : STD_LOGIC_VECTOR(7 downto 0);
+	signal loopback : STD_LOGIC_VECTOR(1 downto 0);
+	signal To_Reg : STD_LOGIC_VECTOR(15 downto 0);
+	signal Reg_Data : STD_LOGIC_VECTOR(7 downto 0);
+	signal EnIn : STD_LOGIC;
+	signal FinalStage : STD_LOGIC_VECTOR(3 downto 0);
+	signal intMux6 : STD_LOGIC;
+	
+begin
+	
+	U1 : Decoder
+	port map(
+		A => Input0 & Input1 & Reg_Data(1 downto 0),
+		B => To_Reg
+	);
+	
+	
+	U2 : UniversalShiftRegister
+	port map (
+		Data(1 downto 0) => loopback,
+		Reloj => Clk,
+		Clr => Rst,
+		En => EnIn,
+		SEL => "0001",
+		N => x"00",
+		Pout => Reg_Data
+	);
+	
+	U3 : mux2to1
+	port map(
+		y   => loopback(0),
+		sel => To_Reg(14), 
+		x0  => To_Reg(0),
+		x1  => '1'
+	);
+	
+	U4: mux2to1
+	port map(
+		y   => loopback(1),
+		sel => To_Reg(5),
+		x0  => To_Reg(14),
+		x1  => '1'
+	);
+	
+	
+	U5 : Decoder
+	port map (
+		A => "00" & Reg_Data(1) & Reg_Data(0),
+		B(3 downto 0) => FinalStage 
+	);
+	
+	U6 : mux2to1
+	port map(
+		y => intMux6,
+		x0 => FinalStage(1),
+		x1 => '1',
+		Sel => FinalStage(2)
+	);
+	
+	U7 : mux2to1
+	port map(
+		y => A,
+		x0 => intMux6,
+		x1 => '1',
+		Sel => FinalStage(3)
+	);
+	B <= FinalStage(2);
+	Reg_Debug <= Reg_Data(1 downto 0);
+	EnIn <= En and (loopback(0) or loopback(1) or (not(input0) and input1 and (Reg_Data(0) and Reg_Data(1))));
+	En_De <= EnIn;
+end Behavioral;
+
