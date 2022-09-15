@@ -1,5 +1,5 @@
 Fitter report for RXTXUART
-Mon Sep 12 02:13:16 2022
+Mon Sep 12 08:35:40 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Mon Sep 12 02:13:16 2022       ;
+; Fitter Status                      ; Successful - Mon Sep 12 08:35:40 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; RXTXUART                                    ;
 ; Top-level Entity Name              ; PairRXTX                                    ;
@@ -153,13 +153,13 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.13        ;
+; Average used               ; 1.17        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.9%      ;
-;     Processors 3-16        ;   0.9%      ;
+;     Processor 2            ;   1.1%      ;
+;     Processors 3-16        ;   1.1%      ;
 +----------------------------+-------------+
 
 
@@ -1604,7 +1604,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.24 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.33 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1612,10 +1612,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file C:/Users/memof/OneDrive/Profe II/9n0/Interfaces de Computadora/Computer-Interfaces/UART/FullUART/output_files/RXTXUART.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6603 megabytes
-    Info: Processing ended: Mon Sep 12 02:13:16 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Peak virtual memory: 6607 megabytes
+    Info: Processing ended: Mon Sep 12 08:35:41 2022
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +----------------------------+

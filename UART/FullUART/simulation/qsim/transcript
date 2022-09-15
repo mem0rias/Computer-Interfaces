@@ -1,26 +1,26 @@
 # do RXTXUART.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:20:40 on Sep 12,2022
+# Start time: 08:14:56 on Sep 12,2022
 # vlog -work work RXTXUART.vo 
 # -- Compiling module PairRXTX
 # -- Compiling module hard_block
 # 
 # Top level modules:
 # 	PairRXTX
-# End time: 02:20:40 on Sep 12,2022, Elapsed time: 0:00:00
+# End time: 08:14:56 on Sep 12,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:20:40 on Sep 12,2022
+# Start time: 08:14:56 on Sep 12,2022
 # vlog -work work Waveform1.vwf.vt 
 # -- Compiling module PairRXTX_vlg_vec_tst
 # 
 # Top level modules:
 # 	PairRXTX_vlg_vec_tst
-# End time: 02:20:40 on Sep 12,2022, Elapsed time: 0:00:00
+# End time: 08:14:56 on Sep 12,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -novopt -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.PairRXTX_vlg_vec_tst 
-# Start time: 02:20:40 on Sep 12,2022
+# Start time: 08:14:56 on Sep 12,2022
 # Loading work.PairRXTX_vlg_vec_tst
 # Loading work.PairRXTX
 # Loading work.hard_block
@@ -43,5 +43,5 @@
 # after#26
 # ** Note: $finish    : Waveform1.vwf.vt(64)
 #    Time: 10 us  Iteration: 0  Instance: /PairRXTX_vlg_vec_tst
-# End time: 02:20:40 on Sep 12,2022, Elapsed time: 0:00:00
+# End time: 08:14:57 on Sep 12,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 4
